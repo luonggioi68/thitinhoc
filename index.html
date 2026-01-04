@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kết quả thi</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; /* Ẩn thanh cuộn của trang chính */
+        }
+        
+        .iframe-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100vh; /* Chiều cao 100% màn hình */
+            border: none;
+            
+            /* MẤU CHỐT: Đẩy iframe lên trên để che thanh thông báo */
+            /* Thanh thông báo Google thường cao khoảng 25px-40px */
+            /* Ta sẽ đẩy lên -40px để che nó đi */
+            position: relative;
+            top: -40px; 
+            
+            /* Tăng chiều cao lên để bù lại phần bị cắt */
+            height: calc(100vh + 40px); 
+        }
+    </style>
+</head>
+<body>
+
+    <div class="iframe-container">
+        <iframe src="https://script.google.com/macros/s/AKfycbzkYXqvhGAJm58BZYrMmbOQ5ud6WaAgFbUlCYsNG3p-aW0LGMHr9iwl6OBBh5nYh8kb/exec" allow="autoplay"></iframe>
+    </div>
+
+</body>
+</html>
