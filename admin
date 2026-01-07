@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin thi Online Tin học</title>
+</head>
+<body>
+ 
+    <div class="iframe-container" id="main-content">
+        <iframe src="https://script.google.com/macros/s/AKfycbxlKY9bpvMsLZ5jNJtKvWfiLYhCR4oUkCbRvjE1iM9pkGxW01mjJZo0GiE8qiEOPes/exec?a=admin" allow="autoplay; fullscreen"></iframe>
+    </div>
+
+
+
+</body>
+</html>
